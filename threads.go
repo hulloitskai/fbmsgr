@@ -76,8 +76,8 @@ func (s *Session) Threads(timestamp time.Time, limit int) (res []*ThreadInfo, er
 		} `json:"viewer"`
 	}
 	params := map[string]interface{}{
-		"limit": limit,
-		"tags":  []string{"INBOX"},
+		"limit":                   limit,
+		"tags":                    []string{"INBOX"},
 		"includeDeliveryReceipts": true,
 		"includeSeqID":            false,
 	}

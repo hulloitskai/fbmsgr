@@ -159,7 +159,7 @@ func requestLoginCookies(c *http.Client, body *html.Node) error {
 	if err != nil {
 		panic(err)
 	}
-	c.Jar.SetCookies(u, []*http.Cookie{&http.Cookie{
+	c.Jar.SetCookies(u, []*http.Cookie{{
 		Name:  "_js_datr",
 		Value: dAtr,
 	}})

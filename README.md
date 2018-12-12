@@ -2,7 +2,7 @@
 
 _Reverse engineering Facebook Messenger._
 
-[![godoc-img]][godoc]
+[![GoDoc: reference][godoc-img]][godoc] [![Tags][tags-img]][tags]
 
 This is a fork of [`unixpickle/fbmsgr`](https://github.com/unixpickle/fbmsgr)
 which contains a modified `Session` struct with an exposed `http.Client`, so
@@ -53,3 +53,5 @@ that its cookies may be read by other packages.
 
 [godoc]: https://godoc.org/github.com/stevenxie/fbmsgr
 [godoc-img]: https://godoc.org/github.com/stevenxie/fbmsgr?status.svg
+[tags]: https://github.com/stevenxie/fbmsgr/tags
+[tags-img]: https://img.shields.io/github/tag/stevenxie/fbmsgr.svg
